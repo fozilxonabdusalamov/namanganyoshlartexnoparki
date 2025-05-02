@@ -1,0 +1,39 @@
+.service_item {
+  width: 670px;
+  height: 170px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+
+.service_item > img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.service_item > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 75%;
+  transition: 3;
+}
+
+.service_item > div > p {
+  color: var(--mainColor);
+  font-weight: bold;
+  font-size: var(--textDefault);
+}
+
+.service_item > div > b {
+  font-size: 21px;
+}
+.service_item:hover {
+  border: 2px solid var(--mainColor);
+  background: var(--secondColor);
+}

@@ -1,0 +1,74 @@
+.header {
+  width: 100%;
+  height: 90px;
+  top: 0;
+  position: sticky;
+  background-color: rgb(24, 46, 62);
+  z-index: 999;
+  padding: 0 40px;
+}
+
+.header_conatiner {
+  width: 1366px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  margin: 0 auto;
+}
+.logo {
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+}
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.link {
+  position: relative;
+  font-size: var(--textDefault);
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--orgColor);
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+.link.active {
+  color: var(--mainColor); /* Faollashgan link rangi */
+}
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--mainColor);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+.link:hover {
+  color: var(--mainColor);
+}
+.link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.header button {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--mainColor);
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+.header button:hover {
+  background-color: var(--secondColor);
+}

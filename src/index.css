@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+.section {
+  scroll-margin-top: 100px; /* header balandligiga moslang */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+:root {
+  --mainColor: rgb(33, 201, 33);
+  --textDefault: 19px;
+  --orgColor: white;
+  --orgBlack: black;
+  --secondColor: rgba(38, 214, 38, 0.599);
+  --bannerText: 50px;
+}

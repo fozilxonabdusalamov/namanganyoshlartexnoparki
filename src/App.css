@@ -1,0 +1,10 @@
+.app {
+  width: 1366px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+._app {
+  width: 100%;
+}

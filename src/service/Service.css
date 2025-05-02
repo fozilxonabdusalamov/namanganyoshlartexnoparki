@@ -1,0 +1,26 @@
+.service {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.service_title {
+  font-size: var(--bannerText);
+  text-transform: uppercase;
+}
+
+.service_title > span {
+  color: var(--mainColor);
+}
+
+.text {
+  font-size: var(--textDefault);
+  margin-top: var(--textDefault);
+  color: var(--orgBlack);
+}
+
+.service_main {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
