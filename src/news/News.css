@@ -27,7 +27,7 @@
 
 /* Individual news card */
 .news_c_items {
-  height: 410px;
+  min-height: 410px;
   overflow: hidden;
   border-radius: 10px;
   display: flex;
