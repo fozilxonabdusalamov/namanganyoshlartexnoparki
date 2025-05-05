@@ -171,7 +171,8 @@ function Footer() {
           </a>
           <div>
             <p>
-              <FaMapLocation /> <b>Manzil:</b> Nurafshon MFY, A.Xo'jayev ko'chasi, 125-uy
+              <FaMapLocation /> <b>Manzil:</b> Nurafshon MFY, A.Xo'jayev
+              ko'chasi, 125-uy
             </p>
           </div>
         </div>

@@ -111,12 +111,34 @@ function GroupItem() {
       modules={[Navigation]}
       loop={true} // Infinite aylanish
       slidesPerView={4.2} // Bir vaqtning o'zida nechta ko'rinsin
-      //   spaceBetween={1} // Slaydlar orasidagi masofa
-      //   breakpoints={{
-      //     320: { slidesPerView: 1 },
-      //     768: { slidesPerView: 2 },
-      //     1024: { slidesPerView: 4.3 },
-      //   }}
+      spaceBetween={1} // Slaydlar orasidagi masofa
+      breakpoints={{
+        1400: { slidesPerView: 4.2 },
+        1280: { slidesPerView: 3.7 },
+        1200: { slidesPerView: 3.4 },
+        1100: { slidesPerView: 3.2 },
+        1050: { slidesPerView: 3 },
+        1000: { slidesPerView: 2.8 },
+        950: { slidesPerView: 2.6 },
+        900: { slidesPerView: 2.5 },
+        850: { slidesPerView: 2.35 },
+        815: { slidesPerView: 2.25 },
+        800: { slidesPerView: 2.15 },
+        780: { slidesPerView: 2.1 },
+        745: { slidesPerView: 2.2 },
+        710: { slidesPerView: 2.1 },
+        690: { slidesPerView: 2.05 },
+        670: { slidesPerView: 2 },
+        640: { slidesPerView: 1.9 },
+        615: { slidesPerView: 1.8 },
+        600: { slidesPerView: 1.7 },
+        550: { slidesPerView: 1.5 },
+        500: { slidesPerView: 1.3 },
+        450: { slidesPerView: 1.3 },
+        400: { slidesPerView: 1.15 },
+        380: { slidesPerView: 1.1 },
+        300: { slidesPerView: 1 },
+      }}
     >
       {groupData.map((member) => (
         <SwiperSlide key={member.id}>

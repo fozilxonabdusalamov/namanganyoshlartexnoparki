@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Bizness.css";
-import buseiness from "../assets/business.jpg";
+import businessImg from "../assets/business.jpg";
 import { useNavigate, useLocation } from "react-router-dom";
 
 function Bizness() {
@@ -27,21 +27,23 @@ function Bizness() {
   };
 
   return (
-    <div className="business">
+    <section className="business" id="business">
       <h1 className="business_title">Innox Biznes Inkubatori</h1>
 
-      <div>
-        <div>
-          <img src={buseiness} alt="business" />
+      <div className="business_content">
+        <div className="business_image">
+          <img src={businessImg} alt="Biznes inkubatsiya dasturi" />
         </div>
-        <div>
+
+        <div className="business_info">
           <p>
-            "InnoX" - innovatsion gʻoyalarga ega boʻlgan yoshlarning startap
+            "InnoX" — innovatsion gʻoyalarga ega boʻlgan yoshlarning startap
             gʻoyalari (loyihalari)ni oʻquv dasturlari va mutaxassis tavsiyalari
             orqali qoʻllab-quvvatlash, grant tanlovlarga yo'naltirishga
             qaratilgan dastur.
           </p>
-          <div>
+
+          <div className="business_details">
             <p className="talab">
               <b>Davomiyligi:</b> 4 oy
             </p>
@@ -49,7 +51,7 @@ function Bizness() {
               <b>Dars davomiyligi:</b> Haftada 3 kun, 2 soatdan
             </p>
             <p className="talab">
-              <b>Dars kunlari: </b>Dushanba, Chorshanba, Juma
+              <b>Dars kunlari:</b> Dushanba, Chorshanba, Juma
             </p>
             <p className="talab">
               <b>Yosh chegarasi:</b> 18-40 yosh oralig‘i
@@ -59,11 +61,12 @@ function Bizness() {
               muammolari yechimiga qaratilgan gʻoya va loyihasi bo'lishi
             </p>
           </div>
-          <span>
-            O'quv mashg'ulotlari davomida, ishtirokchilarga tajribali mentorlar
+
+          <p className="contentsare">
+            O'quv mashg'ulotlari davomida ishtirokchilarga tajribali mentorlar
             tomonidan startap bilan bevosita ishlash uchun zarur bilim va
             ko'nikmalar beriladi.
-          </span>
+          </p>
 
           <button
             className="business_btn"
@@ -73,7 +76,7 @@ function Bizness() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

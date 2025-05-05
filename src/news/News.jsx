@@ -7,35 +7,26 @@ const data = [
   {
     id: 1,
     image: oneStudy,
-
-    infoName: `Technovation girls" tanlovi app inventor mashg'ulotlari`,
-    info: `
-Andijon yoshlar texnoparkida Technovation girls tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
+    infoName: `“Technovation Girls” tanlovi App Inventor mashg'ulotlari`,
+    info: `Andijon yoshlar texnoparkida Technovation girls tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
   },
-  {
-    id: 1,
-    image: oneStudy,
-
-    infoName: `Technovation girls" tanlovi app inventor mashg'ulotlari`,
-    info: `
-Andijon yoshlar texnoparkida Technovation girls tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
-  },
-
   {
     id: 2,
     image: twoStudy,
-
-    infoName: `Technovation Boys" tanlovi app inventor mashg'ulotlari`,
-    info: `
-Andijon yoshlar texnoparkida Technovation girls tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
+    infoName: `“Technovation Boys” tanlovi App Inventor mashg'ulotlari`,
+    info: `Andijon yoshlar texnoparkida Technovation boys tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
   },
   {
-    id: 1,
-    image: oneStudy,
-
-    infoName: `Technovation girls" tanlovi app inventor mashg'ulotlari`,
-    info: `
-Andijon yoshlar texnoparkida Technovation girls tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
+    id: 2,
+    image: twoStudy,
+    infoName: `“Technovation Boys” tanlovi App Inventor mashg'ulotlari`,
+    info: `Andijon yoshlar texnoparkida Technovation boys tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
+  },
+  {
+    id: 2,
+    image: twoStudy,
+    infoName: `“Technovation Boys” tanlovi App Inventor mashg'ulotlari`,
+    info: `Andijon yoshlar texnoparkida Technovation boys tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
   },
 ];
 

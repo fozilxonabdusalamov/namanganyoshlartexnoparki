@@ -15,7 +15,7 @@ html {
   font-style: normal;
 }
 .section {
-  scroll-margin-top: 100px; /* header balandligiga moslang */
+  scroll-margin-top: 100px;
 }
 
 * {
@@ -24,6 +24,11 @@ html {
   box-sizing: border-box;
   font-family: "Gilroy", sans-serif;
   letter-spacing: 0.5px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 :root {

@@ -42,3 +42,42 @@
   background-color: #fff;
   font-size: var(calc(--textDefault - 3px));
 }
+
+@media (max-width: 1390px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 780px) {
+  .heading {
+    font-size: 30px;
+  }
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .heading {
+    font-size: 30px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading {
+    font-size: 30px;
+  }
+  .container {
+    padding: 0 10px;
+  }
+}
