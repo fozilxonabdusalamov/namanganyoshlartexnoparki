@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Bizness.css";
-import businessImg from "../assets/business.jpg";
+import businessImg from "./one.jpg";
 import { useNavigate, useLocation } from "react-router-dom";
 
 function Bizness() {

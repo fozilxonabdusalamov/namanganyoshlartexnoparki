@@ -21,6 +21,9 @@ function HomePage() {
           <div id="banner" className="section">
             <Banner />
           </div>
+          <div id="news" className="section">
+            <News />
+          </div>
           <div id="service" className="section">
             <Service />
           </div>
@@ -30,9 +33,7 @@ function HomePage() {
           <div id="about" className="section">
             <Groups />
           </div>
-          <div id="news" className="section">
-            <News />
-          </div>
+
           <div id="tanlov" className="section">
             <Tanlov />
           </div>

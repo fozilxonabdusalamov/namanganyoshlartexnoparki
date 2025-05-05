@@ -7,22 +7,23 @@ import { IoIosArrowUp } from "react-icons/io";
 const faqData = [
   {
     question: "Dasturchi bo‘lmoqchi edim, matematika kerak bo‘ladimi?",
-    answer: '"Yaxshi dasturchi" bo‘lish uchun matematikani bilish zarur.',
+    answer:
+      "Dasturchi bo‘lish uchun mukammal matematika bilimlari shart emas. Asosiy arifmetik amallar va mantiqiy fikrlash yetarli. Murakkab matematika faqat ba’zi sohalarda kerak bo‘ladi (masalan, sun’iy intellekt, o‘yinlar yaratish)..",
   },
   {
-    question: "Kompyuterim yo‘q edi dasturlash o‘rgansam bo‘ladimi?",
+    question: " Kompyuterim yo‘q edi, dasturlash o‘rgansam bo‘ladimi?",
     answer:
-      "Ha, albatta! Andijon Yoshlar Texnoparkida barcha shart-sharoitlar tayyorlangan.",
+      "Albatta bo‘ladi! Texnopartda siz markazdagi kompyuterlardan foydalangan holda o‘rganishingiz mumkin. Darslar amaliy tarzda olib boriladi, shuning uchun o‘z kompyuteringiz bo‘lmasa ham, to‘liq o‘rganishingiz mumkin.",
   },
   {
-    question: "O‘quv kurslari qanchadan?",
+    question: "O‘quv kurslari qanchadan boshlanadi?",
     answer:
-      "O‘quv kurslari 600 ming so‘mdan, Office-Pro va Kompyuter savodxonligi kurslari esa 300 ming so‘mdan.",
+      " Kurslar narxi tanlangan yo‘nalish va davomiyligiga qarab farq qiladi. O‘rtacha oylik to‘lovlar 300 000 so‘mdan boshlanadi. Batafsil ma’lumot olish uchun biz bilan bog‘laning.",
   },
   {
-    question: "O‘quv kurslari qanchadan?",
+    question: "Kursni tugatgach, ish topishimga yordam berasizlarmi?",
     answer:
-      "O‘quv kurslari 600 ming so‘mdan, Office-Pro va Kompyuter savodxonligi kurslari esa 300 ming so‘mdan.",
+      "Ha, Texnopart bitiruvchilariga ishga joylashishda maslahat va yo‘naltirishlar beriladi. Eng yaxshi bitiruvchilar tavsiya orqali IT kompaniyalarga yo‘naltiriladi.",
   },
 ];
 

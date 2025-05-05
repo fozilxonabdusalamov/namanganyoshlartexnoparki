@@ -1,6 +1,7 @@
 import React from "react";
 import "./GroupItem.css";
 import fozilxon from "../../assets/fozilxon.jpg";
+import Director from "./groupImage/director.png";
 import { MdEmail } from "react-icons/md";
 import { FaFacebook, FaInstagram, FaTelegram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io5";
@@ -14,93 +15,86 @@ import "swiper/css/navigation";
 const groupData = [
   {
     id: 1,
-    name: "Fozilxon",
-    image: fozilxon,
-    position: "Front-end Developer",
+    name: "Inamov Raxmatillo",
+    image: Director,
+    position: "Director",
     description:
-      "Fozilxon is a talented front-end developer with a passion for creating beautiful and user-friendly web applications.",
+      "Yoshlar texnoparki direktori texnalogiyalar va ta'lim soxasida tajribali mutaxasis bo'lib, yoshlarning zamonaviy bilim olishini qo'llab quvvatlaydi",
     contact: {
-      email: "fozilxonabdusalamov2006@gmail.com",
-      facebook: "https://www.facebook.com/fozilxon.abdusalamov.1",
-      instagram: "https://www.instagram.com/fozilxon_abdusalamov/",
-      github: "https://github.com/fozilxonabdusalamov",
-      telegram: "https://t.me/fozilxonabdusalamov",
-    },
-  },
-
-  {
-    id: 2,
-    name: "Fozilxon",
-    image: fozilxon,
-    position: "Front-end Developer",
-    description:
-      "Fozilxon is a talented front-end developer with a passion for creating beautiful and user-friendly web applications.",
-    contact: {
-      email: "fozilxonabdusalamov2006@gmail.com",
-      facebook: "https://www.facebook.com/fozilxon.abdusalamov.1",
-      instagram: "https://www.instagram.com/fozilxon_abdusalamov/",
-      github: "https://github.com/fozilxonabdusalamov",
-      telegram: "https://t.me/fozilxonabdusalamov",
+      email: "",
+      facebook: "",
+      instagram: "",
+      telegram: "",
     },
   },
   {
-    id: 3,
-    name: "Fozilxon",
-    image: fozilxon,
-    position: "Front-end Developer",
+    id: 1,
+    name: "Inamov Raxmatillo",
+    image: Director,
+    position: "Director",
     description:
-      "Fozilxon is a talented front-end developer with a passion for creating beautiful and user-friendly web applications.",
+      "Yoshlar texnoparki direktori texnalogiyalar va ta'lim soxasida tajribali mutaxasis bo'lib, yoshlarning zamonaviy bilim olishini qo'llab quvvatlaydi",
     contact: {
-      email: "fozilxonabdusalamov2006@gmail.com",
-      facebook: "https://www.facebook.com/fozilxon.abdusalamov.1",
-      instagram: "https://www.instagram.com/fozilxon_abdusalamov/",
-      github: "https://github.com/fozilxonabdusalamov",
-      telegram: "https://t.me/fozilxonabdusalamov",
+      email: "",
+      facebook: "",
+      instagram: "",
+      telegram: "",
     },
   },
   {
-    id: 4,
-    name: "Fozilxon",
-    image: fozilxon,
-    position: "Front-end Developer",
+    id: 1,
+    name: "Inamov Raxmatillo",
+    image: Director,
+    position: "Director",
     description:
-      "Fozilxon is a talented front-end developer with a passion for creating beautiful and user-friendly web applications.",
+      "Yoshlar texnoparki direktori texnalogiyalar va ta'lim soxasida tajribali mutaxasis bo'lib, yoshlarning zamonaviy bilim olishini qo'llab quvvatlaydi",
     contact: {
-      email: "fozilxonabdusalamov2006@gmail.com",
-      facebook: "https://www.facebook.com/fozilxon.abdusalamov.1",
-      instagram: "https://www.instagram.com/fozilxon_abdusalamov/",
-      github: "https://github.com/fozilxonabdusalamov",
-      telegram: "https://t.me/fozilxonabdusalamov",
+      email: "",
+      facebook: "",
+      instagram: "",
+      telegram: "",
     },
   },
   {
-    id: 5,
-    name: "Fozilxon",
-    image: fozilxon,
-    position: "Front-end Developer",
+    id: 1,
+    name: "Inamov Raxmatillo",
+    image: Director,
+    position: "Director",
     description:
-      "Fozilxon is a talented front-end developer with a passion for creating beautiful and user-friendly web applications.",
+      "Yoshlar texnoparki direktori texnalogiyalar va ta'lim soxasida tajribali mutaxasis bo'lib, yoshlarning zamonaviy bilim olishini qo'llab quvvatlaydi",
     contact: {
-      email: "fozilxonabdusalamov2006@gmail.com",
-      facebook: "https://www.facebook.com/fozilxon.abdusalamov.1",
-      instagram: "https://www.instagram.com/fozilxon_abdusalamov/",
-      github: "https://github.com/fozilxonabdusalamov",
-      telegram: "https://t.me/fozilxonabdusalamov",
+      email: "",
+      facebook: "",
+      instagram: "",
+      telegram: "",
     },
   },
   {
-    id: 6,
-    name: "Fozilxon",
-    image: fozilxon,
-    position: "Front-end Developer",
+    id: 1,
+    name: "Inamov Raxmatillo",
+    image: Director,
+    position: "Director",
     description:
-      "Fozilxon is a talented front-end developer with a passion for creating beautiful and user-friendly web applications.",
+      "Yoshlar texnoparki direktori texnalogiyalar va ta'lim soxasida tajribali mutaxasis bo'lib, yoshlarning zamonaviy bilim olishini qo'llab quvvatlaydi",
     contact: {
-      email: "fozilxonabdusalamov2006@gmail.com",
-      facebook: "https://www.facebook.com/fozilxon.abdusalamov.1",
-      instagram: "https://www.instagram.com/fozilxon_abdusalamov/",
-      github: "https://github.com/fozilxonabdusalamov",
-      telegram: "https://t.me/fozilxonabdusalamov",
+      email: "",
+      facebook: "",
+      instagram: "",
+      telegram: "",
+    },
+  },
+  {
+    id: 1,
+    name: "Inamov Raxmatillo",
+    image: Director,
+    position: "Director",
+    description:
+      "Yoshlar texnoparki direktori texnalogiyalar va ta'lim soxasida tajribali mutaxasis bo'lib, yoshlarning zamonaviy bilim olishini qo'llab quvvatlaydi",
+    contact: {
+      email: "",
+      facebook: "",
+      instagram: "",
+      telegram: "",
     },
   },
 ];

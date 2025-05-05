@@ -1,7 +1,9 @@
 import React from "react";
 import "./News.css";
 import oneStudy from "./image/one.jpg";
-import twoStudy from "./image/yoshlar.jpg";
+import twoStudy from "./image/two.jpg";
+import threeStudy from "./image/three.jpg";
+import fourStudy from "./image/four.jpg";
 
 const data = [
   {
@@ -18,13 +20,13 @@ const data = [
   },
   {
     id: 2,
-    image: twoStudy,
+    image: threeStudy,
     infoName: `“Technovation Boys” tanlovi App Inventor mashg'ulotlari`,
     info: `Andijon yoshlar texnoparkida Technovation boys tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
   },
   {
     id: 2,
-    image: twoStudy,
+    image: fourStudy,
     infoName: `“Technovation Boys” tanlovi App Inventor mashg'ulotlari`,
     info: `Andijon yoshlar texnoparkida Technovation boys tanlovi ishtirokchilarining navbatdagi App Inventor mashg'uloti va raqamli loyiha taqdimotlari bo'lib o'tdi.`,
   },

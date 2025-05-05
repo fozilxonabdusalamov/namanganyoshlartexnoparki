@@ -85,6 +85,12 @@ function Header() {
             Asosiy
           </p>
           <p
+            className={`link ${activeSection === "news" ? "active" : ""}`}
+            onClick={() => handleLinkClick("news")}
+          >
+            Yangiliklar
+          </p>
+          <p
             className={`link ${activeSection === "service" ? "active" : ""}`}
             onClick={() => handleLinkClick("service")}
           >
@@ -96,12 +102,7 @@ function Header() {
           >
             Jamoa
           </p>
-          <p
-            className={`link ${activeSection === "news" ? "active" : ""}`}
-            onClick={() => handleLinkClick("news")}
-          >
-            Yangiliklar
-          </p>
+
           <p
             className={`link ${activeSection === "tanlov" ? "active" : ""}`}
             onClick={() => handleLinkClick("tanlov")}
