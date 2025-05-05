@@ -14,38 +14,40 @@ import "./App.css";
 
 function HomePage() {
   return (
-    <div className="_app">
+    <>
       <Header />
-      <div className="app">
-        <div id="banner" className="section">
-          <Banner />
+      <div className="_app">
+        <div className="app">
+          <div id="banner" className="section">
+            <Banner />
+          </div>
+          <div id="service" className="section">
+            <Service />
+          </div>
+          <div className="section">
+            <Business />
+          </div>
+          <div id="about" className="section">
+            <Groups />
+          </div>
+          <div id="news" className="section">
+            <News />
+          </div>
+          <div id="tanlov" className="section">
+            <Tanlov />
+          </div>
+          <div id="question" className="section">
+            <Question />
+          </div>
+          <div className="section">
+            <About />
+          </div>
         </div>
-        <div id="service" className="section">
-          <Service />
-        </div>
-        <div className="section">
-          <Business />
-        </div>
-        <div id="about" className="section">
-          <Groups />
-        </div>
-        <div id="news" className="section">
-          <News />
-        </div>
-        <div id="tanlov" className="section">
-          <Tanlov />
-        </div>
-        <div id="question" className="section">
-          <Question />
-        </div>
-        <div className="section">
-          <About />
+        <div id="footer" className="section">
+          <Footer />
         </div>
       </div>
-      <div id="footer" className="section">
-        <Footer />
-      </div>
-    </div>
+    </>
   );
 }
 

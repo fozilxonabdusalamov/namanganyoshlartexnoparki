@@ -3,14 +3,15 @@ import React, { useEffect, useState } from "react";
 import "./Header.css";
 import logo from "../../public/logo.svg";
 import { useNavigate, useLocation } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 function Header() {
   const navigate = useNavigate();
   const location = useLocation();
 
   const [activeSection, setActiveSection] = useState("banner");
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  // Sahifadagi bo‘limlarga scroll qilish
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
@@ -18,9 +19,9 @@ function Header() {
     }
   };
 
-  // Link bosilganda ishlaydigan funksiya
   const handleLinkClick = (id) => {
     setActiveSection(id);
+    setMenuOpen(false); // menyuni yopish
 
     if (location.pathname !== "/") {
       navigate("/");
@@ -30,7 +31,6 @@ function Header() {
     }
   };
 
-  // 🔁 Scroll paytida avtomatik active bo‘limni aniqlash
   useEffect(() => {
     const sectionIds = [
       "banner",
@@ -76,6 +76,7 @@ function Header() {
           className="logo"
           onClick={() => handleLinkClick("banner")}
         />
+
         <div className="nav-links">
           <p
             className={`link ${activeSection === "banner" ? "active" : ""}`}
@@ -121,7 +122,26 @@ function Header() {
             Ro'yhatdan o'tish
           </button>
         </div>
+
+        <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+          <FaBars />
+        </div>
       </div>
+
+      {/* Mobile menyu */}
+      {menuOpen && (
+        <div className="mobile-menu">
+          <p onClick={() => handleLinkClick("banner")}>Asosiy</p>
+          <p onClick={() => handleLinkClick("service")}>Xizmatlar</p>
+          <p onClick={() => handleLinkClick("about")}>Jamoa</p>
+          <p onClick={() => handleLinkClick("news")}>Yangiliklar</p>
+          <p onClick={() => handleLinkClick("tanlov")}>Tanlov</p>
+          <p onClick={() => handleLinkClick("footer")}>Aloqa</p>
+          <button onClick={() => navigate("/registration")}>
+            Ro'yhatdan o'tish
+          </button>
+        </div>
+      )}
     </div>
   );
 }
