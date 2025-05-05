@@ -1,5 +1,6 @@
 footer {
   width: 100%;
+  min-height: 400px;
   background-color: rgb(24, 46, 62);
   color: var(--orgColor);
   font-size: 18px;
@@ -119,6 +120,9 @@ footer {
     flex-direction: column;
     padding: 0 30px;
   }
+  .f_container_items_one {
+    margin-left: -30px;
+  }
 
   .f_container_items,
   .f_container_items_one,
@@ -135,6 +139,16 @@ footer {
 @media (max-width: 768px) {
   .f_container_items img {
     width: 150px;
+  }
+
+  .f_container_items_link a {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .f_container_items {
+    padding: 10px;
   }
 
   .f_container_items_link a {
