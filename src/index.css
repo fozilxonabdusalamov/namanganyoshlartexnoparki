@@ -39,3 +39,10 @@ html {
   --secondColor: rgba(38, 214, 38, 0.599);
   --bannerText: 50px;
 }
+
+@media (max-width: 425px) {
+  body {
+    overflow-x: none;
+    padding: 0;
+  }
+}
