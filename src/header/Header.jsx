@@ -1,7 +1,7 @@
 // Header.jsx
 import React, { useEffect, useState } from "react";
 import "./Header.css";
-import logo from "../../public/logo.svg";
+// import logo from "../../public/logo.svg";
 import { useNavigate, useLocation } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 
@@ -70,12 +70,18 @@ function Header() {
   return (
     <div className="header">
       <div className="header_conatiner">
-        <img
+        {/* <img
           src={logo}
           alt="logo"
           className="logo"
+
+
+
           onClick={() => handleLinkClick("banner")}
-        />
+        /> */}
+        <h2 onClick={() => handleLinkClick("banner")} className="logo_text">
+          Namangan Yoshlar Texnoparki
+        </h2>
 
         <div className="nav-links">
           <p

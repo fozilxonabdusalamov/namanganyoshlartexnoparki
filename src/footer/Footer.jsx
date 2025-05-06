@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Footer.css";
-import icon from "../../public/logo.svg";
+// import icon from "../../public/logo.svg";
 import {
   FaMapLocation,
   FaTelegram,
@@ -72,7 +72,13 @@ function Footer() {
     <footer id="footer">
       <div className="f_container">
         <div className="f_container_items">
-          <img src={icon} alt="icon" />
+          {/* <img src={icon} alt="icon" /> */}
+          <h2
+            onClick={() => handleLinkClick("banner")}
+            className="logo_text_footer"
+          >
+            Namangan Yoshlar Texnoparki
+          </h2>
           <p
             className={`links ${activeSection === "banner" ? "active" : ""}`}
             onClick={() => handleLinkClick("banner")}
