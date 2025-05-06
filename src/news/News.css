@@ -18,7 +18,7 @@
   color: var(--mainColor);
 }
 
-/* News container with grid layout */
+
 .news_container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -26,7 +26,6 @@
   padding-bottom: 30px;
 }
 
-/* Individual news card */
 .news_c_items {
   min-height: 410px;
   overflow: hidden;
