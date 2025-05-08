@@ -76,3 +76,8 @@
     padding: 10px;
   }
 }
+@media (max-width: 425px) {
+  .tanlov > h1 {
+    width: 100%;
+  }
+}
