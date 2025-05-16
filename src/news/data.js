@@ -36,6 +36,12 @@ import sixImageTwo from "./image/12-05-2025/photo_2025-05-12_13-01-30.jpg";
 import sixImageTree from "./image/12-05-2025/photo_2025-05-12_13-01-34.jpg";
 import sixImageFour from "./image/12-05-2025/photo_2025-05-12_13-01-36.jpg";
 
+import sevenImageOne from './image/14.04.2025/photo_2025-05-14_17-56-10.jpg'
+import sevenImageTwo from './image/14.04.2025/photo_2025-05-14_17-56-25.jpg'
+import sevenImageTree from './image/14.04.2025/photo_2025-05-14_17-56-30.jpg'
+import sevenImageFour from './image/14.04.2025/photo_2025-05-14_17-56-35.jpg'
+
+
 // import oneImageOne from
 // import oneImageTwo from
 // import oneImageTree from
@@ -103,6 +109,13 @@ const data = [
         images: [sixImageOne, sixImageTwo, sixImageTree, sixImageFour],
         infoName: `"InnoX" biznes-inkubator va akselerator dasturining targ‘ibot ishlari davom etmoqda.`,
         info: `2025-yil 7-may kuni “Namangan Yoshlar Texnoparki” direktori R.Inamov boshchiligidagi mas’ul xodimlar tomonidan "University of business and science" talabalari uchun texnopark faoliyatiga oid taqdimot o‘tkazildi.Seminarda Iqtidorli talabalarning ilmiy-tadqiqot faoliyatini tashkil etish bo‘limi boshlig‘i  va iqtidorli talaba yoshlar ishtirok etishdi.   Tadbir davomida ishtirokchilarga texnopark doirasida yoshlarga yaratilayotgan imkoniyatlar, mavjud zamonaviy infratuzilmalar hamda “InnoX” dasturi doirasida tashkil etilishi rejalashtirilgan trening va amaliyot jarayonlari haqida batafsil ma’lumotlar taqdim etildi. Mazkur tadbirda "University of business and science" rahbariyati hamda talabalar faol ishtirok etib, o‘zlarini qiziqtirgan savollarga atroflicha javob oldilar.
+ `,
+    },
+    {
+        id: 7,
+        images: [sevenImageOne, sevenImageTwo, sevenImageTree, sevenImageFour],
+        infoName: `"InnoX" biznes-inkubator va akselerator dasturining targ‘ibot ishlari davom etmoqda.`,
+        info: `2025-yil 14-may kuni “Namangan Yoshlar Texnoparki” direktori R.Inamov boshchiligidagi mas’ul xodimlar tomonidan "Toshkent iqtisodiyot va texnalogiyalar universiteti" talabalari uchun texnopark faoliyatiga oid taqdimot o‘tkazildi.Seminarda Iqtidorli talabalarning ilmiy-tadqiqot faoliyatini tashkil etish bo‘limi boshlig‘i  va iqtidorli talaba yoshlar ishtirok etishdi. Tadbir davomida ishtirokchilarga texnopark doirasida yoshlarga yaratilayotgan imkoniyatlar, mavjud zamonaviy infratuzilmalar hamda “InnoX” dasturi doirasida tashkil etilishi rejalashtirilgan trening va amaliyot jarayonlari haqida batafsil ma’lumotlar taqdim etildi. Mazkur tadbirda "Toshkent iqtisodiyot va texnalogiyalar universiteti" rahbariyati hamda talabalar faol ishtirok etib, o‘zlarini qiziqtirgan savollarga atroflicha javob oldilar.
  `,
     },
 ];

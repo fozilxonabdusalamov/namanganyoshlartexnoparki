@@ -1,18 +1,16 @@
+// News.js
 import React, { useState, useEffect } from "react";
 import "./News.css";
 import data from "./data";
 
 function News() {
-  const sortedData = [...data].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
+  // 🔽 Yangiliklarni ID bo‘yicha kamayish tartibida saralaymiz (oxirgi yangilik birinchi chiqadi)
+  const sortedData = [...data].sort((a, b) => b.id - a.id);
 
   const itemsPerPage = 4;
   const [visibleCount, setVisibleCount] = useState(itemsPerPage);
   const [imageIndices, setImageIndices] = useState(sortedData.map(() => 0));
   const [hovered, setHovered] = useState(sortedData.map(() => false));
-
-  // More/Less holati
   const [expanded, setExpanded] = useState(sortedData.map(() => false));
 
   useEffect(() => {
