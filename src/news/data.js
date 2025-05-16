@@ -42,6 +42,14 @@ import sevenImageTree from './image/14.04.2025/photo_2025-05-14_17-56-30.jpg'
 import sevenImageFour from './image/14.04.2025/photo_2025-05-14_17-56-35.jpg'
 
 
+import eightImageOne from './image/16.05.2025/photo_2025-05-16_14-58-06.jpg'
+import eightImageTwo from './image/16.05.2025/photo_2025-05-16_14-58-25.jpg'
+import eightImageTree from './image/16.05.2025/photo_2025-05-16_14-58-29.jpg'
+import eightImageFour from './image/16.05.2025/photo_2025-05-16_14-58-34.jpg'
+import eightImageFive from './image/16.05.2025/photo_2025-05-16_14-58-37.jpg'
+
+
+// import oneImageSix from
 // import oneImageOne from
 // import oneImageTwo from
 // import oneImageTree from
@@ -116,6 +124,15 @@ const data = [
         images: [sevenImageOne, sevenImageTwo, sevenImageTree, sevenImageFour],
         infoName: `"InnoX" biznes-inkubator va akselerator dasturining targ‘ibot ishlari davom etmoqda.`,
         info: `2025-yil 14-may kuni “Namangan Yoshlar Texnoparki” direktori R.Inamov boshchiligidagi mas’ul xodimlar tomonidan "Toshkent iqtisodiyot va texnalogiyalar universiteti" talabalari uchun texnopark faoliyatiga oid taqdimot o‘tkazildi.Seminarda Iqtidorli talabalarning ilmiy-tadqiqot faoliyatini tashkil etish bo‘limi boshlig‘i  va iqtidorli talaba yoshlar ishtirok etishdi. Tadbir davomida ishtirokchilarga texnopark doirasida yoshlarga yaratilayotgan imkoniyatlar, mavjud zamonaviy infratuzilmalar hamda “InnoX” dasturi doirasida tashkil etilishi rejalashtirilgan trening va amaliyot jarayonlari haqida batafsil ma’lumotlar taqdim etildi. Mazkur tadbirda "Toshkent iqtisodiyot va texnalogiyalar universiteti" rahbariyati hamda talabalar faol ishtirok etib, o‘zlarini qiziqtirgan savollarga atroflicha javob oldilar.
+ `,
+    },
+    {
+        id: 7,
+        images: [eightImageOne, eightImageTwo, eightImageTree, eightImageFour, eightImageFive],
+        infoName: `"O‘zbekiston va Koreya texnoparklari o‘rtasidagi hamkorlik yangi bosqichga chiqmoqda!`,
+        info: `Innovatsion rivojlanish agentligida Janubiy Koreyaning  Kyongnam Texnoparki, UAIDE va Changvon Milliy Universiteti delegatsiyasi vakillari  hamda Agentlik markaziy apparati masullari, yoshlar texnoparklari rahbarlari o’rtasida uchrashuv bo‘lib o‘tdi. Uchrashuv yakunida Namangan, Nukus, Navoiy, Jizzax, Guliston, Ohangaron, Andijon yoshlar texnoparklari hamda Kyongnam Texnoparki o‘rtasida hamkorlik memorandumi imzolandi.
+Bizni kuzating!
+
  `,
     },
 ];
