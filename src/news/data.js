@@ -127,7 +127,7 @@ const data = [
  `,
     },
     {
-        id: 7,
+        id: 8,
         images: [eightImageOne, eightImageTwo, eightImageTree, eightImageFour, eightImageFive],
         infoName: `"O‘zbekiston va Koreya texnoparklari o‘rtasidagi hamkorlik yangi bosqichga chiqmoqda!`,
         info: `Innovatsion rivojlanish agentligida Janubiy Koreyaning  Kyongnam Texnoparki, UAIDE va Changvon Milliy Universiteti delegatsiyasi vakillari  hamda Agentlik markaziy apparati masullari, yoshlar texnoparklari rahbarlari o’rtasida uchrashuv bo‘lib o‘tdi. Uchrashuv yakunida Namangan, Nukus, Navoiy, Jizzax, Guliston, Ohangaron, Andijon yoshlar texnoparklari hamda Kyongnam Texnoparki o‘rtasida hamkorlik memorandumi imzolandi.
