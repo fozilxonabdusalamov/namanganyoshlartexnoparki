@@ -123,7 +123,6 @@ function Registration() {
           label="Startap loyihangiz haqida (200 so‘zgacha)"
           id="description"
           name="description"
-          maxLength={200}
           required
         />
 
@@ -165,18 +164,41 @@ const Input = ({
   </div>
 );
 
-const TextArea = ({ label, id, name, rows = 4, maxLength = 200, required }) => (
-  <div>
-    <label htmlFor={id}>{label}</label>
-    <textarea
-      id={id}
-      name={name}
-      rows={rows}
-      maxLength={maxLength}
-      required={required}
-    />
-  </div>
-);
+const TextArea = ({ label, id, name, rows = 4, required }) => {
+  const [wordCount, setWordCount] = useState(0);
+  const [text, setText] = useState("");
+
+  const MAX_WORDS = 200;
+
+  const handleChange = (e) => {
+    const words = e.target.value
+      .trim()
+      .split(/\s+/)
+      .filter((w) => w.length > 0);
+
+    if (words.length <= MAX_WORDS) {
+      setText(e.target.value);
+      setWordCount(words.length);
+    }
+  };
+
+  return (
+    <div>
+      <label htmlFor={id}>{label}</label>
+      <>
+        {wordCount} / {MAX_WORDS}
+      </>
+      <textarea
+        id={id}
+        name={name}
+        rows={rows}
+        value={text}
+        onChange={handleChange}
+        required={required}
+      />
+    </div>
+  );
+};
 
 const RadioGroup = ({ label, name, options }) => (
   <div>
