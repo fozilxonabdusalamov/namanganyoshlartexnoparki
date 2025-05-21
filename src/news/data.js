@@ -49,6 +49,15 @@ import eightImageFour from './image/16.05.2025/photo_2025-05-16_14-58-34.jpg'
 import eightImageFive from './image/16.05.2025/photo_2025-05-16_14-58-37.jpg'
 
 
+import nineImagethree from './image/19.05.2025/photo_2025-05-21_18-30-08.jpg'
+import nineImageOne from './image/19.05.2025/photo_2025-05-21_18-30-21.jpg'
+import nineImageTwo from './image/19.05.2025/photo_2025-05-21_18-30-25.jpg'
+
+import tenImageTree from './image/21,05,2025/photo_2025-05-21_18-27-44.jpg'
+import tenImageFour from './image/21,05,2025/photo_2025-05-21_18-28-11.jpg'
+import tenImageFive from './image/21,05,2025/photo_2025-05-21_18-28-17.jpg'
+
+
 // import oneImageSix from
 // import oneImageOne from
 // import oneImageTwo from
@@ -133,6 +142,27 @@ const data = [
         info: `Innovatsion rivojlanish agentligida Janubiy Koreyaning  Kyongnam Texnoparki, UAIDE va Changvon Milliy Universiteti delegatsiyasi vakillari  hamda Agentlik markaziy apparati masullari, yoshlar texnoparklari rahbarlari o’rtasida uchrashuv bo‘lib o‘tdi. Uchrashuv yakunida Namangan, Nukus, Navoiy, Jizzax, Guliston, Ohangaron, Andijon yoshlar texnoparklari hamda Kyongnam Texnoparki o‘rtasida hamkorlik memorandumi imzolandi.
 Bizni kuzating!
 
+ `,
+    },
+    {
+        id: 9,
+        images: [nineImageOne, nineImageTwo, nineImagethree],
+        infoName: `"Namangan Yoshlar Texnoparkida InnoX dasturi boʻyicha oʻquv jarayonlari olib borilmoqda.`,
+        info: `Malakali mutaxassislar tomonidan "Gʻoya topishdagi xatolar va gʻoya sifatini baholash" mavzusida dastlabki oʻquv seminari tashkil etildi.
+Texnoparkdagi mavjud imkoniyatlardan toʻlaqonli foydalangan xolda ushbu jarayon tizimli ravishda yoʻlga qoʻyiladi.
+InnoX biznes-inkubatori soʻngida dastlabki qatnashchi sanalgan ishtirokchilar maxsus sertifikat bilan taqdirlanadilar. 
+Namangan Yoshlar Texnoparki yoshlarni qoʻllab-quvvatlaydi.
+
+ `,
+    },
+    {
+        id: 10,
+        images: [tenImageTree, tenImageFour, tenImageFive],
+        infoName: `"Namangan Yoshlar Texnoparkida “InnoX” dasturi doirasida “Brend nima va marketingning kuchi” mavzusida o‘quv seminari bo‘lib o‘tdi.
+Seminar malakali mutaxassislar tomonidan olib borilib, unda brendning biznesdagi o‘rni, bozor holatini shakllantirishdagi roli va mahsulot sifatini belgilashdagi ta’siri haqida batafsil ma’lumotlar berildi.`,
+        info: `Shuningdek, bugungi kunda yetakchi tashkilotlar tomonidan qo‘llanilayotgan marketing strategiyalari, ularning qanday shakllantirilgani va amalga oshirilish bosqichlari keng qamrovli tahlil qilindi. Ishtirokchilar zamonaviy marketing yondashuvlari hamda brendni bozorga to‘g‘ri olib chiqish usullari bilan tanishtirildi.
+“InnoX” biznes-inkubatori doirasida Namangan Yoshlar Texnoparkining mavjud imkoniyatlaridan to‘laqonli foydalangan holda o‘quv jarayonlari tizimli ravishda tashkil etilmoqda. Dastur yakunida dastlabki bosqchda ishtirok etgan qatnashchilarga maxsus sertifikatlar topshiriladi.
+Namangan Yoshlar Texnoparki yoshlarni har tomonlama qo‘llab-quvvatlashda davom etadi.
  `,
     },
 ];
