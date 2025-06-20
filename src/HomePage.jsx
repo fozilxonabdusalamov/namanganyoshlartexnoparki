@@ -30,9 +30,9 @@ function HomePage() {
           <div className="section">
             <Business />
           </div>
-          <div id="about" className="section">
+          {/* <div id="about" className="section">
             <Groups />
-          </div>
+          </div> */}
 
           <div id="tanlov" className="section">
             <Tanlov />

@@ -99,12 +99,12 @@ function Header() {
           >
             Xizmatlar
           </p>
-          <p
+          {/* <p
             className={`link ${activeSection === "about" ? "active" : ""}`}
             onClick={() => handleLinkClick("about")}
           >
             Jamoa
-          </p>
+          </p> */}
 
           <p
             className={`link ${activeSection === "tanlov" ? "active" : ""}`}
